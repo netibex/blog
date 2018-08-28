@@ -19,7 +19,7 @@ canonifyurls = true
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   #RSSLink = "http://feeds.feedburner.com/..."
   githubName = "netibex"
-  #twitterName = "vjeantet"
+  #twitterName = "netibex"
   # facebookName = ""
   # codepenName = ""
   # linkedinName = ""
