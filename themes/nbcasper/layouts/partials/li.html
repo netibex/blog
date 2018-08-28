@@ -12,7 +12,7 @@
     <footer class="post-meta">
         
 
-        {{ if or .Params.author .Site.Params.author}}
+        <!--{{ if or .Params.author .Site.Params.author}}
             {{$authorname := or .Params.author .Site.Params.author }}
             {{$authoravatar := or .Params.authoravatar .Site.Params.logo }}
 
@@ -23,7 +23,7 @@
             {{with $authorname}}
             {{$authorname}}
             {{end}}     
-        {{end}}
+        {{end}}-->
 
         {{if .Params.tags }}on
             {{ range $index, $tag := .Params.tags }}
