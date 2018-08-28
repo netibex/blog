@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://netibex.netlify.com"
 languageCode = "en-us"
 Title= "Netibex Blog on Hugo"
 paginate = 10
