@@ -1,6 +1,6 @@
 baseURL = "https://netibex.netlify.com"
 languageCode = "en-us"
-Title= "Netibex Blog on Hugo"
+Title= "NETIBEX BLOG"
 paginate = 10
 #DisqusShortname = "YOUR_SHORT_NAME_HERE"
 Copyright = "All rights reserved - Netibex"
@@ -9,7 +9,7 @@ theme="nbcasper"
 
 
 [params]
-  description = "Netibex Blog"
+  description = "stay tuned..."
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   cover = "images/cover.jpg"
   author = "Netibex"
@@ -20,7 +20,7 @@ theme="nbcasper"
   #googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   #RSSLink = "http://feeds.feedburner.com/..."
-  githubName = "netibex"
+  #githubName = "netibex"
   #twitterName = "netibex"
   # facebookName = ""
   # codepenName = ""
