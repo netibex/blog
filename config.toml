@@ -6,6 +6,7 @@ paginate = 10
 Copyright = "All rights reserved - Netibex"
 canonifyurls = true
 
+
 [params]
   description = "Netibex Blog"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
