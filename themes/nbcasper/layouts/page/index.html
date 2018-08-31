@@ -10,7 +10,6 @@
 {{else}}
 <header class="main-header no-cover">
 {{end}}
-
     <nav class="main-nav overlay clearfix">
         {{ if .Site.Params.logo }}
             <a class="blog-logo" href="{{ .Permalink }}"><img src="{{ .Site.Params.logo  | relURL}}" alt="Blog Logo" /></a>
@@ -28,7 +27,7 @@
     <div class="vertical">
         <div class="main-header-content inner">
             <!--{{ partial "social.html" . }}-->
-            <h1 class="page-title">{{ .Site.Title }}</h1>
+            <a href="{{.Site.BaseURL}}"><h1 class="page-title">{{ .Site.Title }}</h1></a>
             <h2 class="page-description">{{ .Site.Params.description }}</h2>
         </div>
     </div>

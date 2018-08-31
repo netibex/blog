@@ -6,7 +6,8 @@
   {{ else }}
   <header class="main-header post-head" style="background-image: url({{.Params.image | relURL}})">
   {{ end }}
-  <nav class="main-nav overlay clearfix">
+  <nav class="main-nav">
+      <!--<nav class="main-nav overlay clearfix">-->
 {{else}}
 {{if .Site.Params.cover}}
 {{if or (eq (substr .Site.Params.cover 0 7) "http://") (eq (substr .Site.Params.cover 0 8) "https://")}}
@@ -17,7 +18,12 @@
 {{else}}
  <header class="main-header post-head no-cover">
 {{end}}
-  <nav class="main-nav overlay clearfix">
+<div class="vertical">
+    <div class="main-header-content">
+        <a class="none" href=" {{.Site.BaseURL}}# "><h1 class="page-title">{{ .Site.Title }}</h1></a>
+    </div>
+</div>
+  <nav class="main-nav clearfix">
 {{end}}
 
 
@@ -30,12 +36,7 @@
       <a class="menu-button icon-feed" href="{{ "index.xml"| relURL}}" >&nbsp;&nbsp;Subscribe</a>
   {{end}}
   </nav>
-  <div class="vertical">
-    <div class="main-header-content">
-        <h1 class="page-title">{{.Site.Title}}</h1>
-        <!--<h1 class="page-title">Netibex</h1>-->
-    </div>
-</div>
+  
 </header>
 
 
