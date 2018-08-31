@@ -289,10 +289,10 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Work Sans", sans-serif;
-    /*font-family: "Open Sans", sans-serif;*/
-    /*letter-spacing: 0.01rem;*/
-    letter-spacing: -0.03rem;
+    /*font-family: "Work Sans", sans-serif;
+    letter-spacing: -0.05rem;*/
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.02rem;
     font-size: 1.7rem;
     line-height: 1.7em;
     font-weight: 500;
@@ -682,7 +682,7 @@ body.nav-opened .nav-cover {
     z-index: 5;
     width: 240px;
     opacity: 0;
-    background: #111;
+    background: #415770;
     margin-bottom: 0;
     text-align: left;
     overflow-y: auto;
@@ -690,9 +690,10 @@ body.nav-opened .nav-cover {
                         opacity 0.3s ease 0.7s;
             transition: transform 0.5s ease,
                         opacity 0.3s ease 0.7s;
-font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+font-family: "Open Sans",sans-serif;
+/*font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;*/
 font-weight: 700;
-font-size: 11px;
+font-size: 1rem;
 color: #909090;
 }
 
@@ -717,7 +718,7 @@ body.nav-opened .nav {
     position: absolute;
     top: 45px;
     left: 30px;
-    font-size: 16px;
+    font-size: 1.3rem;
     font-weight: 100;
     text-transform: uppercase;
     color: #fff;
@@ -928,11 +929,11 @@ body.nav-opened .nav {
     float: right;
     height: 38px;
     padding: 0 15px;
-    border: #bfc8cd 1px solid;
+    border: #ebebeb 1px solid;
     opacity: 1;
-    color: #9EABB3;
+    color: #ebebeb;
     text-align: center;
-    font-size: 12px;
+    font-size: 1.3rem;
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
@@ -944,14 +945,14 @@ body.nav-opened .nav {
     outline: 0;
 }
 .menu-button .burger {
-    font-size: 12px;
+    font-size: 1.3rem;
     margin-right: 6px;
 }
 
 body.nav-opened .menu-button {
     padding: 0 12px;
-    background: #111 !important;
-    border-color: #111 !important;
+    background: #415770 !important;
+    border-color: #415770 !important;
     color: #fff !important;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
@@ -987,15 +988,15 @@ body.nav-opened .menu-button .word {
 }
 
 .main-nav.overlay a:hover {
-    color: #222;
-    border-color: #fff;
-    background: #fff;
+    color: #415770;
+    border-color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 
 /* Add a border to the buttons on hover */
 .menu-button:hover {
-    border-color: #555;
-    color: #555;
+    border-color: #415770;
+    color: #415770;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -1033,8 +1034,12 @@ body.nav-opened .menu-button .word {
 }
 
 .no-cover .main-nav.overlay .menu-button {
-    color: rgba(0,0,0,0.4);
-    border-color: rgba(0,0,0,0.3);
+    color: #ebebeb;
+    border-color: #ebebeb;
+}
+
+.no-cover .main-nav.overlay .menu-button:hover {
+    color: #415770;
 }
 
 /* Add subtle load-in animation for content on the home page */
@@ -1189,12 +1194,16 @@ body.nav-opened .menu-button .word {
     height: 45vh;
 }
 
-.post-template, .post-header {
+.post-template {
    margin-bottom: 3.6rem;
 }
 
+.post-header {
+    margin-bottom: 1.5rem;
+ }
+
 .post-template, .post-title {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 .post-template, .post-meta {
