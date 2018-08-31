@@ -8,9 +8,18 @@
   {{ end }}
   <nav class="main-nav overlay clearfix">
 {{else}}
-<header class="main-header post-head no-cover">
-  <nav class="main-nav clearfix">
+{{if .Site.Params.cover}}
+{{if or (eq (substr .Site.Params.cover 0 7) "http://") (eq (substr .Site.Params.cover 0 8) "https://")}}
+  <header class="main-header post-head post-default-cover" style="background-image: url({{.Site.Params.cover}})">
+  {{ else }}
+  <header class="main-header post-head post-default-cover" style="background-image: url({{.Site.Params.cover | relURL}})">
+  {{ end }}
+{{else}}
+ <header class="main-header post-head no-cover">
 {{end}}
+  <nav class="main-nav overlay clearfix">
+{{end}}
+
 
   {{ if .Site.Params.logo }}
       <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{ .Site.Params.logo | relURL}}" alt="Home" /></a>
@@ -21,6 +30,12 @@
       <a class="menu-button icon-feed" href="{{ "index.xml"| relURL}}" >&nbsp;&nbsp;Subscribe</a>
   {{end}}
   </nav>
+  <div class="vertical">
+    <div class="main-header-content">
+        <h1 class="page-title">{{.Site.Title}}</h1>
+        <!--<h1 class="page-title">Netibex</h1>-->
+    </div>
+</div>
 </header>
 
 

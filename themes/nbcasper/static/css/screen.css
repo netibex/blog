@@ -1,4 +1,4 @@
-/* ==========================================================================
+    /* ==========================================================================
    Table of Contents
    ========================================================================== */
 
@@ -117,35 +117,74 @@ table { border-collapse: collapse; border-spacing: 0; }
   font-weight: bold; font-style: normal;
 }
 
+/*
 @font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
+    font-family: 'Lato';
+    src: local('Lato'), local('Lato'), url('../fonts/Lato/Lato.ttf') format('truetype');
+    font-weight: normal; font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Light'), local('Lato-Light'), url('../fonts/Lato/Lato-Light.ttf') format('truetype');
   font-weight: light; font-style: normal;
 }
 
 @font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('../fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
-  font-weight: light; font-style: italic;
-}
-
-@font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Bold'), local('Merriweather-Bold'), url('../fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+  font-family: 'Lato';
+  src: local('Lato Bold'), local('Lato-Bold'), url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
   font-weight: bold; font-style: normal;
 }
 
 @font-face {
-  font-family: 'Merriweather';
-  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url('../fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype');
+  font-family: 'Lato';
+  src: local('Lato Italic'), local('Lato-Italic'), url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
   font-weight: bold; font-style: italic;
-}
+}*/
 
 @font-face {
   font-family: 'Inconsolata';
   src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
   font-weight: normal; font-style: normal;
 }
+
+
+/* Import the font files: Meriweather */
+  @font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
+    font-weight: light; font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('../fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
+    font-weight: light; font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather Bold'), local('Merriweather-Bold'), url('../fonts/Merriweather/Merriweather-Bold.ttf') format('truetype');
+    font-weight: bold; font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url('../fonts/Merriweather/Merriweather-BoldItalic.ttf') format('truetype');
+    font-weight: bold; font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Inconsolata';
+    src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
+    font-weight: normal; font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Work Sans';
+    src: local('Work Sans'), local('Work-Sans'), url('../fonts/Work_Sans/worksans-regular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+  }
 
 /* Import the font file with the icons in it */
 @font-face {
@@ -250,11 +289,14 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
-    letter-spacing: 0.01rem;
-    font-size: 1.8rem;
-    line-height: 1.75em;
-    color: #3A4145;
+    font-family: "Work Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
+    /*letter-spacing: 0.01rem;*/
+    letter-spacing: -0.03rem;
+    font-size: 1.7rem;
+    line-height: 1.7em;
+    font-weight: 500;
+    color: #222;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -282,30 +324,30 @@ h4, h5, h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     letter-spacing: -1px;
 }
 
 h3 {
-    font-size: 3rem;
-}
-
-h4 {
     font-size: 2.5rem;
 }
 
-h5 {
+h4 {
     font-size: 2rem;
 }
 
+h5 {
+    font-size: 1.5rem;
+}
+
 h6 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 a {
@@ -525,6 +567,16 @@ margin on the iframe, cause it breaks stuff. */
     display: none;
 }
 
+/* Top Bar - Deco only*/
+.top-bar{
+    width:100%;
+    height: 10px;
+    margin: 0px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #546d8a;
+}
+
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
     position: relative;
@@ -564,14 +616,19 @@ body.nav-opened .site-wrapper {
    ========================================================================== */
 
 /* Big cover image on the home page */
+.image-header {
+    background: center no-repeat;
+    background-size: 100% 100%;
+}
 .main-header {
     position: relative;
     display: table;
     width: 100%;
-    height: 30vh;
+    height: 100vh;
+    padding-top:10px;
     margin-bottom: 5rem;
     text-align: center;
-    background: #222 no-repeat center center;
+    background: #ea5c5a no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
@@ -838,12 +895,12 @@ body.nav-opened .nav {
 }
 
 /* Hide when there's no cover image or on page2+ */
-.no-cover .scroll-down,
+/*.no-cover .scroll-down,
 .no-cover.main-header:after,
 .archive-template .scroll-down,
 .archive-template .main-header:after {
     display: none
-}
+}*/
 
 /* Appears in the top right corner of your home page */
 .blog-logo {
@@ -879,7 +936,7 @@ body.nav-opened .nav {
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
-    border-radius: 3px;
+    border-radius: 0px;
     background: rgba(0,0,0,0.1);
     transition: all 0.5s ease;
 }
@@ -944,10 +1001,10 @@ body.nav-opened .menu-button .word {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
-    letter-spacing: -1px;
+    font-size: 7rem;
+    letter-spacing: -0.4rem;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans" !important;
     color: #fff;
 }
 
@@ -955,20 +1012,20 @@ body.nav-opened .menu-button .word {
     margin: 0;
     font-size: 2rem;
     line-height: 1.5em;
-    font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-weight: 500;
+    font-family: serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
 
 .no-cover.main-header {
     min-height: 160px;
-    max-height: 40vh;
-    background: #f5f8fa;
+    max-height: 100vh;
+    background:  #627c99;
 }
 
 .no-cover .page-title {
-    color: rgba(0,0,0,0.8);
+    color: #eceff1;
 }
 
 .no-cover .page-description {
@@ -1026,9 +1083,9 @@ body.nav-opened .menu-button .word {
     box-shadow: #FFF 0 0 0 5px;
 }
 
-body:not(.post-template) .post-title {
+/*body:not(.post-template) .post-title {
     font-size: 3.6rem;
-}
+}*/
 
 .post-title a {
     text-decoration: none;
@@ -1036,8 +1093,8 @@ body:not(.post-template) .post-title {
 
 .post-excerpt p {
     margin: 0;
-    font-size: 0.9em;
-    line-height: 1.7em;
+    /*font-size: 1.1em;
+    line-height: 1.7em;*/
 }
 
 .read-more {
@@ -1127,20 +1184,24 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
-
-.post-template .post-header {
-   margin-bottom: 3.4rem;
+.post-default-cover.post-head.main-header {
+    /*background-color: #50585D;*/
+    height: 45vh;
 }
 
-.post-template .post-title {
+.post-template, .post-header {
+   margin-bottom: 3.6rem;
+}
+
+.post-template, .post-title {
     margin-bottom: 0;
 }
 
-.post-template .post-meta {
+.post-template, .post-meta {
     margin: 0;
 }
 
-.post-template .post-date {
+.post-template, .post-date {
     padding: 0;
     margin: 0;
     border: none;
@@ -1149,19 +1210,19 @@ body:not(.post-template) .post-title {
 /* Stop elements, such as img wider than the post content, from
    creating horizontal scroll - slight hack due to imperfections
    with browser width % calculations and rounding */
-.post-template .content {
+.post-template, .content {
     overflow: hidden;
 }
 
 /* Tweak the .post wrapper style */
-.post-template .post {
+.post-template, .post {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
 }
 
 /* Kill that stylish little circle that was on the border, too */
-.post-template .post:after {
+.post-template, .post:after {
     display: none;
 }
 
@@ -1242,7 +1303,7 @@ body:not(.post-template) .post-title {
     position: absolute;
     top: 6rem;
     right: 0;
-    width: 180px;
+    width: 20rem;
 }
 
 .post-footer .share a {
@@ -1267,11 +1328,21 @@ body:not(.post-template) .post-title {
     min-height: 180px;
 }
 
+.no-cover .main-header-content{
+    padding-left: 3vh;
+}
+
 .no-cover.post-head.main-header {
-    height: 85px;
-    min-height: 0;
-    margin-bottom: 0;
-    background: transparent;
+    height:110px;
+    min-height: 85px;
+    background: #627c99;
+    text-align: left;
+}
+
+.no-cover.post-head.main-header h1{
+    color: #FFF;
+    letter-spacing: -0.2rem;
+    font-size: 3.5rem;
 }
 
 .tag-head.main-header {
@@ -1570,7 +1641,6 @@ body:not(.post-template) .post-title {
 
     .page-title {
         font-size: 4rem;
-        letter-spacing: -1px;
     }
 
     .page-description {
@@ -1582,9 +1652,9 @@ body:not(.post-template) .post-title {
         font-size: 0.95em
     }
 
-    body:not(.post-template) .post-title {
+    /*body:not(.post-template) .post-title {
         font-size: 3.2rem;
-    }
+    }*/
 
     hr {
         margin: 2.4em 0;
@@ -1595,28 +1665,28 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         text-indent: -2px;
     }
 
     h2 {
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 
     h3 {
-        font-size: 3.1rem;
-    }
-
-    h4 {
         font-size: 2.5rem;
     }
 
+    h4 {
+        font-size: 2rem;
+    }
+
     h5 {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
     }
 
     h6 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .author-profile {
@@ -1645,12 +1715,16 @@ body:not(.post-template) .post-title {
     }
 
     .no-cover.post-head.main-header {
-        height: 55px;
+        height: 110px;
         padding: 0;
     }
 
     .no-cover.author-head.main-header {
         padding: 0;
+    }
+
+    .no-cover.post-head.main-header h1{
+        font-size: 3.5rem;
     }
 
 }
@@ -1720,6 +1794,10 @@ body:not(.post-template) .post-title {
         border: none;
     }
 
+    .no-cover.post-head.main-header h1{
+        font-size: 3rem;
+    }
+
     .main-nav.overlay .menu-button {
         border-color: transparent;
     }
@@ -1780,7 +1858,7 @@ body:not(.post-template) .post-title {
     }
 
     .post-excerpt p {
-        font-size: 0.85em;
+        font-size: 1.1em;
     }
 
     .page-description {
@@ -1793,34 +1871,34 @@ body:not(.post-template) .post-title {
     }
 
     h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         letter-spacing: -1px;
     }
 
     h2 {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         letter-spacing: 0;
     }
 
     h3 {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
 
     h4 {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
 
     h5 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     h6 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
-    body:not(.post-template) .post-title {
+    /*body:not(.post-template) .post-title {
         font-size: 2.5rem;
-    }
+    }*/
 
     .post-template .post {
         padding-bottom: 0;
