@@ -45,13 +45,13 @@ theme="nbcasper"
 
 	
 [[menu.main]]
-  name = "My Blog"
-  weight = -120
+  name = "Home"
+  weight = -100
   identifier = "blog"
   url = "/"
 
 [[menu.main]]
-  name = "About me"
-  weight = -110
+  name = "About"
+  weight = -200
   identifier = "about"
   url = "/about"
