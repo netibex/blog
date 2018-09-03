@@ -1000,7 +1000,7 @@ body.nav-opened .menu-button .word {
 .page-title {
     margin: 10px 0 10px 0;
     font-size: 7rem;
-    letter-spacing: -0.4rem;
+    letter-spacing: -0.8rem;
     font-weight: 700;
     font-family: "Open Sans" !important;
     color: #fff;
@@ -1652,6 +1652,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 4rem;
+        letter-spacing: -0.4rem;
     }
 
     .page-description {
@@ -1779,12 +1780,12 @@ body.nav-opened .menu-button .word {
         padding: 0 5px;
         border-radius: 0;
         border-color: transparent;
-        color: #2e2e2e;
-        background: transparent;
+        color: #FFF;
+        background: none;
     }
     .menu-button:hover {
-        color: #2e2e2e;
-        border-color: transparent;
+        color: #FFF;
+        border-color: none;
         background: none;
     }
     body.nav-opened .menu-button {
@@ -1792,7 +1793,7 @@ body.nav-opened .menu-button .word {
         border: transparent !important;
     }
 
-    .main-nav.overlay a:hover {
+    .main-nav a:hover {
         color: #fff;
         border-color: transparent;
         background: transparent;
@@ -1866,6 +1867,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 3rem;
+        letter-spacing: -0.3rem;
     }
 
     .post-excerpt p {
