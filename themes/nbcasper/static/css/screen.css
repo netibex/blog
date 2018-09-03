@@ -947,8 +947,9 @@ body.nav-opened .nav {
     outline: 0;
 }
 .menu-button .burger {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-right: 6px;
+    font-weight: bold;
 }
 
 body.nav-opened .menu-button {
@@ -1108,7 +1109,7 @@ body.nav-opened .menu-button .word {
     display: block;
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2.2rem;
     color: #9EABB3;
 }
@@ -1122,7 +1123,7 @@ body.nav-opened .menu-button .word {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: #627c99;
     text-decoration: none;
 }
 
@@ -1141,7 +1142,7 @@ body.nav-opened .menu-button .word {
     margin-left: 8px;
     padding-left: 12px;
     border-left: #d5dbde 1px solid;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 1.3rem;
     white-space: nowrap;
 }
@@ -1211,6 +1212,7 @@ body.nav-opened .menu-button .word {
 .post-template, .post-date {
     padding: 0;
     margin: 0;
+    margin-right: 0.5rem;
     border: none;
 }
 

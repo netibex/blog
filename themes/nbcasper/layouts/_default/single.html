@@ -58,7 +58,7 @@
             {{ .Date.Format "Jan 2, 2006" }}
           </time>
         {{end}}
-         {{ range .Params.tags }}
+         {{ range .Params.tags }}on
           <span class="post-tag small"><a href="{{$.Site.BaseURL}}/tags/{{ . | urlize }}/">#{{ . }}</a></span>
          {{ end }}
         </section>
@@ -67,7 +67,6 @@
     <section class="post-content">
       {{ .Content }}
     </section>
-
 
   <footer class="post-footer">
 
