@@ -1,3 +1,7 @@
+{{ if .Site.Params.logowhite }}
+            <a class="index-blog-logo" href="{{ .Permalink }}"><img src="{{ .Site.Params.logowhite  | relURL}}" alt="Blog Logo" /></a>
+{{end}}
+        
 {{ if .Site.Params.linkedinName }}
     <a class="bloglogo" href="https://www.linkedin.com/in/{{ .Site.Params.linkedinName }}" target="_blank">
         <span class="icon-linkedin" style="color:white;font-size:2em"></span>

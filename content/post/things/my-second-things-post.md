@@ -1,8 +1,8 @@
 ---
 title: "My Second Things Post"
-date: 2018-08-28T14:37:59+02:00
+date: 2018-08-26
+tags: ["things"]
 ---
-
 
 
 This is a Post aa
