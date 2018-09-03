@@ -1000,7 +1000,7 @@ body.nav-opened .menu-button .word {
 .page-title {
     margin: 10px 0 10px 0;
     font-size: 7rem;
-    letter-spacing: -0.8rem;
+    letter-spacing: -0.6rem;
     font-weight: 700;
     font-family: "Open Sans" !important;
     color: #fff;
@@ -1652,7 +1652,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 4rem;
-        letter-spacing: -0.4rem;
+        letter-spacing: -0.3rem;
     }
 
     .page-description {
@@ -1867,7 +1867,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 3rem;
-        letter-spacing: -0.3rem;
+        letter-spacing: -0.2rem;
     }
 
     .post-excerpt p {
