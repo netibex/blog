@@ -13,18 +13,19 @@
             {{end}}
         {{end}}
     </nav>
+    {{ if .Site.Params.logowhite }}
+        <div class="page-logo">
+            <a class="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logowhite  | relURL}}" alt="Blog Logo" /></a>
+        </div>  
+        {{end}}
   <div class="vertical">
       <div class="main-header-content">
-          {{ if .Site.Params.logowhite }}
-          <a class="blog-logo" href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logowhite  | relURL}}" alt="Blog Logo" /></a>
-          {{end}}
-          <a class="none" href=" {{.Site.BaseURL}}# "><h1 class="page-title">{{ .Site.Title }}</h1></a>
+         
+          <!--<a class="none" href=" {{.Site.BaseURL}}# "><h1 class="page-title">{{ .Site.Title }}</h1></a>-->
       </div>
   </div>  
 
 </header>
-
-
 
 <main class="content single-post" role="main">
 
@@ -33,7 +34,7 @@
     <header class="post-header">
         <section class="post-meta">
             {{ range .Params.tags }}
-              <span class="post-tag small"><a href="{{$.Site.BaseURL}}/tags/{{ . | urlize }}/">{{ . }}</a></span>*
+              <span class="post-tag small"><a href="{{$.Site.BaseURL}}/tags/{{ . | urlize }}/">{{ . }}</a></span>&nbsp;
              {{ end }}
             </section>
         <h1 class="post-title">{{.Title}}</h1>
@@ -42,7 +43,7 @@
         <section class="post-meta">
         {{ if eq .Section "post"}}
           <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
-            {{ .Date.Format "Jan 2, 2006" }}
+            {{ .Date.Format "2 Jan 2006" }}
           </time>
         {{end}}
         </section>
