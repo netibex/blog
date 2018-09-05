@@ -292,11 +292,11 @@ body {
     /*font-family: "Work Sans", sans-serif;
     letter-spacing: -0.05rem;*/
     font-family: "Helvetica Neue", "Helvetica", HelveticaNeue, Helvetica, sans-serif;
-    letter-spacing: 0.01rem;
+    /*letter-spacing: 0.01rem;*/
     font-size: 1.7rem;
     line-height: 1.7em;
     font-weight: 400;
-    color: #222;
+    color: #333;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -1387,7 +1387,7 @@ body.nav-opened .menu-button .word {
 .no-cover.post-head.main-header {
     height:110px;
     min-height: 85px;
-    background:  rgba(0, 112, 163, 1);
+    background: rgb(0, 112, 163);
     text-align: left;
 }
 
