@@ -1250,7 +1250,7 @@ body.nav-opened .menu-button .word {
    with browser width % calculations and rounding */
 .post-template, .content {
     overflow: hidden;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 /* Tweak the .post wrapper style */
@@ -1796,7 +1796,6 @@ body.nav-opened .menu-button .word {
 @media only screen and (max-width: 500px) {
 
     .main-header {
-        margin-bottom: 15px;
         height: 40vh;
     }
 
