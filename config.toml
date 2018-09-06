@@ -9,7 +9,7 @@ theme="nbcasper"
 
 
 [params]
-  description = "... a blog about tech and other things ..."
+  description = "a blog about tech and other things"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   #cover = "images/cover.jpg"
   author = "Christoph*"

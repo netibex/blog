@@ -693,11 +693,11 @@ body.nav-opened .nav-cover {
                         opacity 0.3s ease 0.7s;
             transition: transform 0.5s ease,
                         opacity 0.3s ease 0.7s;
-font-family: "Open Sans",sans-serif;
-/*font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;*/
-font-weight: 700;
-font-size: 1rem;
-color: #909090;
+    font-family: "Open Sans",sans-serif;
+    /*font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;*/
+    font-weight: 700;
+    font-size: 1rem;
+    color: #FFF;
 }
 
 body.nav-closed .nav {
