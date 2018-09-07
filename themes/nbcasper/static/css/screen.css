@@ -164,13 +164,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 @font-face {
     font-family: 'Merriweather';
     src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
-    font-weight: light; font-style: normal;
+    font-weight:lighter; font-style: normal;
   }
   
   @font-face {
     font-family: 'Merriweather';
     src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('../fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
-    font-weight: light; font-style: italic;
+    font-weight: lighter; font-style: italic;
   }
   
   @font-face {
