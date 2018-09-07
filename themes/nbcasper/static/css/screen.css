@@ -303,11 +303,11 @@ body {
     /*font-family: "Work Sans", sans-serif;
     letter-spacing: -0.05rem;*/
     font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0.02rem;
     font-size: 1.5rem;
     line-height: 1.9em;
     font-weight: normal;
-    color: #363636;
+    color: rgb(33,33,33);
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -1943,9 +1943,9 @@ body.nav-opened .menu-button .word {
         letter-spacing: -0.2rem;
     }
 
-    .post-excerpt p {
+    /*.post-excerpt p {
         font-size: 1em;
-    }
+    }*/
 
     .page-description {
         font-size: 1.6rem;
