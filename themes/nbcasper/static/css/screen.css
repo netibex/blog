@@ -307,7 +307,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.9em;
     font-weight: normal;
-    color: rgb(33,33,33);
+    color: rgb(30, 30, 30);
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -1138,7 +1138,7 @@ body.nav-opened .menu-button .word {
     font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;
-    color: #9EABB3;
+    color: rgb(130, 130, 130);
 }
 
 .author-thumb {
@@ -1150,12 +1150,12 @@ body.nav-opened .menu-button .word {
 }
 
 .post-meta a {
-    color: #9EABB3;
+    color: rgb(130, 130, 130);
     text-decoration: none;
 }
 
 .post-meta a:hover {
-    text-decoration: underline;
+    color: rgb(155, 155, 155);
 }
 
 .user-meta {
@@ -1369,7 +1369,7 @@ body.nav-opened .menu-button .word {
     font-size: 1.8rem;
     display: inline-block;
     margin: 1rem 1.6rem 1.6rem 0;
-    color: #BBC7CC;
+    color: rgba(255, 191, 82, 1);
     text-decoration: none;
 }
 
