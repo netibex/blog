@@ -150,7 +150,18 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 /* Import the font files: Meriweather */
+@font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather'), local('Merriweather'), url('../fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: normal; font-style: normal;
+  }  
   @font-face {
+    font-family: 'Merriweather';
+    src: local('Merriweather Italic'), local('Merriweather-Italic'), url('../fonts/Merriweather/Merriweather-Italic.ttf') format('truetype');
+    font-weight: normal; font-style: italic;
+  }
+
+@font-face {
     font-family: 'Merriweather';
     src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
     font-weight: light; font-style: normal;
@@ -291,12 +302,12 @@ body {
     max-height: 100%;
     /*font-family: "Work Sans", sans-serif;
     letter-spacing: -0.05rem;*/
-    font-family: "Helvetica Neue", "Helvetica", HelveticaNeue, Helvetica, sans-serif;
+    font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 0.01rem;
     font-size: 1.6rem;
     line-height: 1.8em;
-    font-weight: 400;
-    color: #333;
+    font-weight: normal;
+    color: rgb(75, 75, 75);
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
