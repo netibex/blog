@@ -142,13 +142,6 @@ table { border-collapse: collapse; border-spacing: 0; }
   font-weight: bold; font-style: italic;
 }*/
 
-@font-face {
-  font-family: 'Inconsolata';
-  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
-  font-weight: normal; font-style: normal;
-}
-
-
 /* Import the font files: Meriweather */
 @font-face {
     font-family: 'Merriweather';
@@ -161,7 +154,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-weight: normal; font-style: italic;
   }
 
-@font-face {
+/*@font-face {
     font-family: 'Merriweather';
     src: local('Merriweather Light'), local('Merriweather-Light'), url('../fonts/Merriweather/Merriweather-Light.ttf') format('truetype');
     font-weight:lighter; font-style: normal;
@@ -171,7 +164,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-family: 'Merriweather';
     src: local('Merriweather Light Italic'), local('Merriweather-LightItalic'), url('../fonts/Merriweather/Merriweather-LightItalic.ttf') format('truetype');
     font-weight: lighter; font-style: italic;
-  }
+  }*/
   
   @font-face {
     font-family: 'Merriweather';
@@ -190,7 +183,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
     font-weight: normal; font-style: normal;
   }
-
+  
   @font-face {
     font-family: 'Work Sans';
     src: local('Work Sans'), local('Work-Sans'), url('../fonts/Work_Sans/worksans-regular-webfont.woff') format('woff');
