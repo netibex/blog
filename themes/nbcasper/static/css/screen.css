@@ -183,7 +183,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url('../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype');
     font-weight: normal; font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'Work Sans';
     src: local('Work Sans'), local('Work-Sans'), url('../fonts/Work_Sans/worksans-regular-webfont.woff') format('woff');
@@ -300,7 +300,7 @@ body {
     font-size: 1.5rem;
     line-height: 1.9em;
     font-weight: normal;
-    color: rgb(30, 30, 30);
+    color: rgb(50, 50, 50);
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
