@@ -449,7 +449,7 @@ mark {
 
 code, tt {
     padding: 3px 5px;
-    font-family: /*Inconsolata, */ monospace, sans-serif;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
     background: #F7FAFB;
@@ -1714,7 +1714,7 @@ body.nav-opened .menu-button .word {
     }
 
     .post {
-        font-size: 1em;
+        font-size: 0.95em;
     }
 
     /*body:not(.post-template) .post-title {
