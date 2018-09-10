@@ -1127,9 +1127,9 @@ body.nav-opened .menu-button .word {
     display: block;
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 2.2rem;
-    color: rgb(130, 130, 130);
+    color: #818c92;
 }
 
 .author-thumb {
@@ -1141,12 +1141,13 @@ body.nav-opened .menu-button .word {
 }
 
 .post-meta a {
-    color: rgb(130, 130, 130);
+    color: #818c92;
     text-decoration: none;
 }
 
 .post-meta a:hover {
-    color: rgb(155, 155, 155);
+    color: #111;
+    text-decoration: none;
 }
 
 .user-meta {
