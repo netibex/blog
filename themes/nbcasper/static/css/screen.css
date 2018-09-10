@@ -1714,8 +1714,8 @@ body.nav-opened .menu-button .word {
     }
 
     .post {
-        font-size: 0.95em;
-        line-height: 0.90em;
+        font-size: 0.90em;
+        line-height: 0.85em;
     }
 
     /*body:not(.post-template) .post-title {
