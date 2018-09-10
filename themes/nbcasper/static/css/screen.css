@@ -1710,11 +1710,12 @@ body.nav-opened .menu-button .word {
 
     .page-description {
         font-size: 1.8rem;
-        line-height: 1.5em;
+        line-height: 1.4em;
     }
 
     .post {
         font-size: 0.95em;
+        line-height: 0.90em;
     }
 
     /*body:not(.post-template) .post-title {
