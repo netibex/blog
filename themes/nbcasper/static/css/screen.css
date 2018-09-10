@@ -1299,9 +1299,9 @@ body.nav-opened .menu-button .word {
 .post-footer {
     position: relative;
     font-family: "Merriweather", serif;
-    margin: 6rem 0 0 0;
+    /*margin: 6rem 0 0 0;
     padding: 6rem 0 0 0;
-    border-top: #EBF2F6 1px solid;
+    border-top: #EBF2F6 1px solid;*/
 }
 
 .post-footer h4 {
@@ -1353,7 +1353,7 @@ body.nav-opened .menu-button .word {
    links remain at a fixed width the whole time */
 .post-footer .share {
     position: absolute;
-    top: 6rem;
+    top: 0;
     right: 0;
     width: 20rem;
 }
@@ -1524,6 +1524,14 @@ body.nav-opened .menu-button .word {
    pagination prev/next links */
 .archive-template .author-profile .author-meta {
     display: none;
+}
+
+/* ==========================================================================
+   6.1 Disqus Thread
+   ========================================================================== */
+
+#disqus_thread{
+    margin-top: 8rem;
 }
 
 /* ==========================================================================
