@@ -19,7 +19,7 @@ You can get more details in the docs: https://docs.microsoft.com/en-us/azure/act
 The way it works is, if configured, the user is asked if an application registered in Azure AD can access certain information in the directory (like user profile etc...), when he logs into an Azure AD integrated application. If the user accepts, he is granted delegated permissions in the directory for the specific application. This means that an application can read certain information on behalf of the user (for example).
 
 E.g. this may look like the following:
-![Azure Ad permissions grant](images/azure-ad-permissions-grant.jpg)
+![Azure Ad permissions grant](./images/tech/azure-ad-permissions-grant.jpg)
 
 But, dependent on how the application was registered in Azure AD (unfortunately this is a very inconsistent experience at the moment), you may not be able to remove permissions through the portal, such as I experienced it when registering an application through the new App Registration Portal (apps.dev.microsoft.com).
 
