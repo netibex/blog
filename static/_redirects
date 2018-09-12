@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://netibex.netlify.com/* https://blog.netibex.at/:splat 301!
