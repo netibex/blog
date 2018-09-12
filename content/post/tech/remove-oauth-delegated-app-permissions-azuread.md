@@ -11,7 +11,9 @@ share: true
 #menu: ""
 ---
 
-If you have ever asked on how to remove grant permissions in Azure AD, below is how to do it in PowerShell.
+If you have ever asked on how to remove grant permissions in Azure AD, this is how to do it in PowerShell.
+
+<!--more-->
 
 Azure AD has the concept of granting delegated and/or applications permissions for OAuth and OpenID Connect flows to control permissions in the directory.
 You can get more details in the docs: https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-permissions-and-consent
