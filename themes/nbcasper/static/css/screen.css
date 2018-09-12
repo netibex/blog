@@ -477,6 +477,7 @@ pre code, pre tt {
     background: transparent;
     border: none;
     padding: 0;
+    word-wrap:normal;
 }
 
 kbd {
