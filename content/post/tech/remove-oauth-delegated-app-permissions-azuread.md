@@ -30,7 +30,7 @@ First you need all the OAuth permissions for your specific application. You will
 Connect-AzureAd
 
 #Get OAuth permissions for the application (using objectid)\
-Get-AzureADOAuth2PermissionGrant | where ClientId -EQ 81131bc8-xxxx-xxxx-xxxx-d4fb165a7a8f | fl *\
+Get-AzureADOAuth2PermissionGrant | where ClientId -EQ 81131bc8-xxxx-xxxx-xxxx-d4fb165a7a8f | fl *
 ```
 
 The youput will look like the following:
@@ -38,14 +38,14 @@ The youput will look like the following:
 ```powershell
 #Output
 ...
-    ClientId    : 81131bc8-xxxx-xxxx-xxxx-d4fb165a7a8f\
-    ConsentType : AllPrincipals\
-    ExpiryTime  : 3/11/2019 7:57:03 AM\
-    ObjectId    : yBsTgSDiqkavP9T7Flp6j1hgDoNT9UZLh_qtgQB60Zk\
-    PrincipalId : 45591aae-xxxx-xxxx-xxxx-3597b070b70f          # <--- This is the user Object-ID\
-    ResourceId  : 830e6058-xxxx-xxxx-xxxx-ad81007ad199\
-    Scope       : User.Read User.ReadBasic.All User.ReadWrite\
-    StartTime   : 1/1/0001 12:00:00 AM\
+    ClientId    : 81131bc8-xxxx-xxxx-xxxx-d4fb165a7a8f
+    ConsentType : AllPrincipals
+    ExpiryTime  : 3/11/2019 7:57:03 AM
+    ObjectId    : yBsTgSDiqkavP9T7Flp6j1hgDoNT9UZLh_qtgQB60Zk
+    PrincipalId : 45591aae-xxxx-xxxx-xxxx-3597b070b70f          # <--- This is the user Object-ID
+    ResourceId  : 830e6058-xxxx-xxxx-xxxx-ad81007ad199
+    Scope       : User.Read User.ReadBasic.All User.ReadWrite
+    StartTime   : 1/1/0001 12:00:00 AM
 ...
 ```
 
@@ -53,12 +53,12 @@ Then you need the ObjectID from the user for whom you want to remove the permiss
 
 ```powershell
 # Get User
-Get-AzureADUser | where displayname -like *usertoberemovedname*
+Get-AzureADUser | where displayname -like <usertoberemovedname>
 
 #ObjectId = PrincipalID from the output above
-ObjectId                             DisplayName         UserPrincipalName                  UserType\
---------                             -----------         -----------------                  --------\
-45591aae-xxxx-xxxx-xxxx-3597b070b70f usertoberemovedname usertoberemovedname@domain.com     Member \
+ObjectId                             DisplayName         UserPrincipalName                  UserType
+--------                             -----------         -----------------                  --------
+45591aae-xxxx-xxxx-xxxx-3597b070b70f usertoberemovedname usertoberemovedname@domain.com     Member 
 ```
 
 Finally remove the permissions using the id for the application and user:
