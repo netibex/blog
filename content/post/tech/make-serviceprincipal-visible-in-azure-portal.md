@@ -1,5 +1,5 @@
 ---
-title: "Make ServiceP rincipal visible as Enterprise App in the Azure Portal"
+title: "Make Service Principal visible as Enterprise App in the Azure Portal"
 date: 2018-08-28
 draft: = false
 #slug = "alt-title-slug"

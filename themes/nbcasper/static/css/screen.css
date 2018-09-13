@@ -300,7 +300,8 @@ body {
     font-size: 1.7rem;
     line-height: 1.6em;
     font-weight: normal;
-    color: rgb(25, 25, 25);
+    color: rgb(60, 60, 60);
+    background-color: #f7f7f7;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -1109,7 +1110,7 @@ body.nav-opened .menu-button .word {
 
 .post-title a {
     text-decoration: none;
-    color:#2e2e2e;
+    color:rgb(99, 99, 99);
     /*color:#243857;*/
     /*color:#283b57;*/
 }
@@ -1128,9 +1129,9 @@ body.nav-opened .menu-button .word {
     display: block;
     margin: 1.75rem 0 0 0;
     font-family: "Open Sans", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     line-height: 2.2rem;
-    color: #818c92;
+    color: rgb(181, 188, 191);
 }
 
 .author-thumb {
@@ -1142,12 +1143,12 @@ body.nav-opened .menu-button .word {
 }
 
 .post-meta a {
-    color: #818c92;
+    color: rgb(181, 188, 191);
     text-decoration: none;
 }
 
 .post-meta a:hover {
-    color: #111;
+    color: rgb(99, 99, 99);
     text-decoration: none;
 }
 
