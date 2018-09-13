@@ -1115,6 +1115,13 @@ body.nav-opened .menu-button .word {
     /*color:#283b57;*/
 }
 
+.post-title a:hover {
+    text-decoration: none;
+    color:rgb(60, 60, 60);
+    /*color:#243857;*/
+    /*color:#283b57;*/
+}
+
 .post-excerpt p {
     margin: 0;
     /*font-size: 1.1em;
