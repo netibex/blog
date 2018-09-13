@@ -301,7 +301,6 @@ body {
     line-height: 1.6em;
     font-weight: normal;
     color: rgb(60, 60, 60);
-    background-color: #f7f7f7;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -601,7 +600,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #fff;
+    background: rgb(252, 252, 252);
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
 }
