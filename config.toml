@@ -6,14 +6,15 @@ DisqusShortname = "netibex"
 Copyright = "All rights reserved - Netibex"
 canonifyurls = true
 theme="nbcasper"
+enableRobotsTXT="true"
 
 
 [params]
   description = "a blog about tech and other things"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  metadescription = "Cloud Azure Azure AD Identity Security Identity Protection Hybrid Cloud Architecture Tech OtherThings Things Life Netibex"
   #cover = "images/cover.jpg"
   author = "Christoph*"
-  authorlocation = " ... above clouds"
+  authorlocation = "...above clouds"
   authorwebsite = "https://blog.netibex.at"
   authorbio= "Always strive to learn..."
   logowhite = "images/logo-white.png"
@@ -58,10 +59,10 @@ theme="nbcasper"
   url = "/tags/tech/"
 
 [[menu.main]]
-  name = "#AllThingsLife"
+  name = "OtherThings"
   weight = -120
-  identifier = "life"
-  url = "/tags/life/"
+  identifier = "otherthings"
+  url = "/tags/otherthings/"
 
 [[menu.main]]
   name = "About"
