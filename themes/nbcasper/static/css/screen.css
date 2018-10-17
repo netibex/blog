@@ -300,7 +300,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;*/
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
-    font-size: 1.85rem;
+    font-size: 1.8rem;
     line-height: 1.65em;
     font-weight: normal;
     color: rgb(60, 60, 60);
@@ -333,13 +333,13 @@ h4, h5, h6 {
 
 h1 {
     font-size: 3.5rem;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     text-indent: -3px;
 }
 
 h2 {
     font-size: 3rem;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 h3 {
@@ -1016,7 +1016,7 @@ body.nav-opened .menu-button .word {
 .page-title {
     margin: 10px 0 10px 0;
     font-size: 7rem;
-    letter-spacing: -0.6rem;
+    letter-spacing: 0rem;
     font-weight: 700;
     font-family: "Open Sans" !important;
     color: #fff;
@@ -1028,7 +1028,7 @@ body.nav-opened .menu-button .word {
     line-height: 1.5em;
     font-weight: 500;
     font-family: serif;
-    letter-spacing: 0.01rem;
+    letter-spacing: 0rem;
     color: rgba(255,255,255,0.8);
 }
 
@@ -1418,7 +1418,7 @@ body.nav-opened .menu-button .word {
 
 .no-cover.post-head.main-header h1{
     color: #FFF;
-    letter-spacing: -0.2rem;
+    letter-spacing: 0rem;
     font-size: 3.5rem;
 }
 
@@ -1726,7 +1726,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 4rem;
-        letter-spacing: -0.3rem;
+        letter-spacing: 0rem;
     }
 
     .page-description {
@@ -1954,7 +1954,7 @@ body.nav-opened .menu-button .word {
 
     .page-title {
         font-size: 3rem;
-        letter-spacing: -0.2rem;
+        letter-spacing: 0rem;
     }
 
     /*.post-excerpt p {
@@ -1972,7 +1972,7 @@ body.nav-opened .menu-button .word {
 
     h1 {
         font-size: 2.5rem;
-        letter-spacing: -1px;
+        letter-spacing: 0px;
     }
 
     h2 {
