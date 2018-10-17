@@ -1113,14 +1113,14 @@ body.nav-opened .menu-button .word {
 
 .post-title a {
     text-decoration: none;
-    color:rgb(85, 85, 85);
+    color:rgb(20, 20, 20);
     /*color:#243857;*/
     /*color:#283b57;*/
 }
 
 .post-title a:hover {
     text-decoration: none;
-    color:rgb(60, 60, 60);
+    color:rgb(80, 80, 80);
     /*color:#243857;*/
     /*color:#283b57;*/
 }
