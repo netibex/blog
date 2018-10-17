@@ -18,9 +18,10 @@
     </header>
     <section class="post-excerpt">
         {{if .Params.excerpt }}
-            <p>{{ .Params.excerpt }} <a class="read-more" href="{{.RelPermalink}}">read more &raquo;</a></p>
+            <!--<p>{{ .Params.excerpt }} <a class="read-more" href="{{.RelPermalink}}">read more &raquo;</a></p>-->
+        <p>{{ .Params.excerpt }} </p>
         {{else}}
-            <p>{{ .Summary }} <a class="read-more" href="{{.RelPermalink}}">read more &raquo;</a></p>
+            <p>{{ .Summary }} </p>
         {{end}}
     </section>
     <footer class="post-meta">
