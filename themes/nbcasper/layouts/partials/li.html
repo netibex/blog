@@ -6,7 +6,7 @@
                 {{ .Date.Format "2 Jan 2006" }}
             </time>
             
-        {{end}}
+        
             </div>
     </header>
     <section class="post-excerpt">
@@ -21,6 +21,7 @@
             {{ range $index, $tag := .Params.tags }}
                 <a href="{{$.Site.BaseURL}}/tags/{{ $tag | urlize }}/">{{ $tag }}</a>&nbsp;
             {{ end }}
+        {{end}}
         <!--{{ if or .Params.author .Site.Params.author}}
             {{$authorname := or .Params.author .Site.Params.author }}
             {{$authoravatar := or .Params.authoravatar .Site.Params.logo }}
