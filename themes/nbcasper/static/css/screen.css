@@ -190,6 +190,8 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-weight: normal; font-style: normal;
   }
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
 /* Import the font file with the icons in it */
 @font-face {
   font-family: 'genericons';
@@ -294,8 +296,9 @@ body {
     height: 100%;
     max-height: 100%;
     /*font-family: "Work Sans", sans-serif;
-    letter-spacing: -0.05rem;*/
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -0.05rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     font-size: 1.85rem;
     line-height: 1.65em;
@@ -323,7 +326,8 @@ h4, h5, h6 {
     color: rgb(99, 99, 99);
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Open Sans", sans-serif;
+    /*font-family: "Open Sans", sans-serif;*/
+    font-family: 'Noto Sans', sans-serif;
     text-rendering: geometricPrecision;
 }
 
